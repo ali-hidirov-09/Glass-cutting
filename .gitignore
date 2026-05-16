@@ -1,13 +1,23 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
+*.py[cod]
 *$py.class
-
+.idea
+*.pyo
+*.pyd
+Thumbs.db
 # C extensions
 *.so
-
+*.iml
+.env.local
+*.env.local
+*.env.*local
 # Distribution / packaging
 .Python
+media/
+local_settings.py
+staticfiles/
 build/
 develop-eggs/
 dist/
